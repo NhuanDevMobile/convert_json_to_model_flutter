@@ -2,6 +2,16 @@ textarea{
 width: 80%;
 margin: 20px auto;
 padding: 10px;
+box-sizing: border-box;
+border: 2px solid #ccc;
+border-radius: 4px;
+background-color: #f8f8f8;
+font-size: 16px;
+resize: none;
+}
+textarea:focus { 
+    outline: none !important;
+    border-color: #06A763;
 }
 form{
 margin: 20px;
@@ -9,13 +19,80 @@ text-align: center;
 }
 .result{
 text-align: left;
-width: 75%;
+width: 80%;
 margin: 10px auto;
-border: solid;
-border-width: 1px;
+box-sizing: border-box;
+border: 2px solid #ccc;
+border-radius: 4px;
 height: 300px;
 scroll-behavior: auto;
 background-color: lightblue;
 overflow: scroll;
 padding: 20px;
 }
+.buttonStyle{
+    width: 80%;
+    margin: auto;
+
+}
+.custom-btn {
+
+    width: 200px;
+    height: 40px;
+    color: #fff;
+    margin-top: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+  
+    padding: 10px 10px;
+  
+    font-family: 'Lato', sans-serif;
+  
+    font-weight: 500;
+  
+    background: transparent;
+  
+    cursor: pointer;
+  
+    transition: all 0.3s ease;
+  
+    position: relative;
+  
+    display: inline-block;
+  
+     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+  
+     7px 7px 20px 0px rgba(0,0,0,.1),
+  
+     4px 4px 5px 0px rgba(0,0,0,.1);
+  
+    outline: none;
+  
+  }
+  
+   
+  
+  /* Hiệu ứng 1 */
+  
+  .btn-1 {
+  
+    background: #06A763;
+  
+    background: linear-gradient(0deg, #06A763 0%, #06A763 100%);
+  
+    border: none;
+  
+  }
+  
+  .btn-1:hover {
+  
+     background: rgb(0,3,255);
+  
+  background: linear-gradient(0deg, rgba(0,3,255,1) 0%, rgba(2,126,251,1) 100%);
+  
+  }
+  
+   
+.title {
+    color: #06A763;
+   }

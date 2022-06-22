@@ -1,5 +1,8 @@
 <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 <form action="/get-text" method="POST">
+
+   <h1 class="title">JSON TO FLUTTER ONLINE CONVERTER</h1> 
+   
     <div>
         <textarea rows="1"  name="title" placeholder='Nhập tên model'>{{title}}</textarea>
     </div>
@@ -15,19 +18,21 @@
           COLUMN_PERSON_ID
           ...............'>{{text}}</textarea>
             </div>
-    <div>
-            <input type="submit" name="submit_12" value="AUTO MODEL">
-         <input type="submit" name="submit_1" value="Chuyển đổi biến">
-        <input type="submit" name="submit_2" value="Chuyển đổi model">
-        <input type="submit" name="submit_8" value="Chuyển đổi biến !">
-        <input type="submit" name="submit_3" value="Chuyển đổi super">
-         <input type="submit" name="submit_4" value="Chuyển đổi Json">
-          <input type="submit" name="submit_10" value="Chuyển đổi Json1">
-           <input type="submit" name="submit_5" value="Chuyển đổi final">
-        <input type="submit" name="submit_6" value="Chuyển đổi this">
-        <input type="submit" name="submit_7" value="Chuyển đổi required this">
-        <input type="submit" name="submit_9" value="Chuyển đổi hoa sang thường">
-          <input type="submit" name="submit_11" value="Chuyển đổi to json">
+    <div class="buttonStyle">
+            <input class="custom-btn btn-1" type="submit" name="submit_12" value="AUTO MODEL">
+         <input class="custom-btn btn-1" type="submit" name="submit_1" value="Chuyển đổi biến">
+        <input class="custom-btn btn-1" type="submit" name="submit_2" value="Chuyển đổi model">
+        <input class="custom-btn btn-1" type="submit" name="submit_8" value="Chuyển đổi biến !">
+        <input class="custom-btn btn-1" type="submit" name="submit_3" value="Chuyển đổi super">
+         <input class="custom-btn btn-1" type="submit" name="submit_4" value="Chuyển đổi Json">
+          <input class="custom-btn btn-1" type="submit" name="submit_10" value="Chuyển đổi Json1">
+           <input class="custom-btn btn-1" type="submit" name="submit_5" value="Chuyển đổi final">
+        <input class="custom-btn btn-1" type="submit" name="submit_6" value="Chuyển đổi this">
+        <input class="custom-btn btn-1" type="submit" name="submit_7" value="Chuyển đổi required this">
+        <input class="custom-btn btn-1" type="submit" name="submit_9" value="Chuyển đổi hoa sang thường">
+          <input  class="custom-btn btn-1"   type="submit" name="submit_11" value="Chuyển đổi to json">
+         
+          
     </div>
 
 </form>
