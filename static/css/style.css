@@ -1,0 +1,21 @@
+textarea{
+width: 80%;
+margin: 20px auto;
+padding: 10px;
+}
+form{
+margin: 20px;
+text-align: center;
+}
+.result{
+text-align: left;
+width: 75%;
+margin: 10px auto;
+border: solid;
+border-width: 1px;
+height: 300px;
+scroll-behavior: auto;
+background-color: lightblue;
+overflow: scroll;
+padding: 20px;
+}
